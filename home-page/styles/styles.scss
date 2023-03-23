@@ -1,0 +1,38 @@
+$darkColor: #1d3557;
+$lightColor: #f1faee;
+$redishColor: #e63946;
+
+
+body {
+    background-color: $lightColor;
+
+    header {
+
+
+        nav.navbar {
+            background-color: $darkColor !important;
+        }
+    }
+
+    main {
+        flex: 1 0 auto;
+        #origField{
+            background-color: $darkColor;
+        }
+
+        // #buttonSection{
+        //     .btn{
+        //         background-color: $redishColor;
+        //         outline: $redishColor;
+        //     }
+        // }
+        #outputStatement{
+            text-align: left;
+            margin-left: 100px;
+        }
+    }
+
+    footer {
+        background-color: $darkColor !important;
+    }
+}

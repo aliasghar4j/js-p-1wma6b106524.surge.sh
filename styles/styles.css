@@ -1,0 +1,47 @@
+body {
+  background-color: dimgrey;
+}
+body #main-div {
+  background-color: rgb(34, 49, 65) !important;
+  box-shadow: 8px 8px 25px black;
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+body #main-div input {
+  border-radius: 5px;
+  background-color: rgb(47, 66, 87);
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+body #main-div i {
+  background-color: rgb(47, 66, 87);
+  position: relative;
+  right: 8%;
+}
+body #main-div #user {
+  width: 50px;
+}
+body #main-div #lostPass {
+  display: block;
+  position: absolute;
+  right: 16%;
+  margin-bottom: 10px;
+}
+body #main-div #submit {
+  display: block;
+  position: relative;
+  left: 12.5%;
+  padding: 10px 50px;
+  color: white;
+  margin-top: 50px;
+  background-color: rgb(60, 124, 192);
+}
+body #main-div #lostPass:hover {
+  cursor: pointer;
+}
+body #main-div #submit:hover {
+  background-color: rgb(86, 100, 126);
+}/*# sourceMappingURL=styles.css.map */

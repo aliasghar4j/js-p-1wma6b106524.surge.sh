@@ -1,0 +1,19 @@
+body {
+  background-color: #f1faee;
+}
+body header nav.navbar {
+  background-color: #1d3557 !important;
+}
+body main {
+  flex: 1 0 auto;
+}
+body main #origField {
+  background-color: #1d3557;
+}
+body main #outputStatement {
+  text-align: left;
+  margin-left: 100px;
+}
+body footer {
+  background-color: #1d3557 !important;
+}/*# sourceMappingURL=styles.css.map */
